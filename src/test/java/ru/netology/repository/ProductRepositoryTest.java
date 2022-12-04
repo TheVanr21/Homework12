@@ -62,7 +62,7 @@ public class ProductRepositoryTest {
                 repository.save(product3);
                 repository.save(product4);
                 repository.save(product5);
-            }catch (AlreadyExistsException e) {
+            } catch (AlreadyExistsException e) {
                 //e.printStackTrace();
             }
         }
